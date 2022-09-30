@@ -25,10 +25,9 @@ class ProductionConfig(Config):
         basedir, 'database-prod.db')
 
 
-config_by_name = dict(
-    dev=DevelopmentConfig,
-    development=DevelopmentConfig,
-    prod=ProductionConfig,
-    production=ProductionConfig)
+config_by_name = dict(dev=DevelopmentConfig,
+                      development=DevelopmentConfig,
+                      prod=ProductionConfig,
+                      production=ProductionConfig)
 
 key = Config.SECRET_KEY
