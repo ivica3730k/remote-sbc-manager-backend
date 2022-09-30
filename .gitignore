@@ -32,3 +32,4 @@ htmlcov/
 __pycache__/
 *.db
 uploads/
+files/
